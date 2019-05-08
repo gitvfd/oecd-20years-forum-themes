@@ -43,13 +43,13 @@
     //var widthScreen =8064
     var heightScreen=window.innerHeight - 0.15*window.innerWidth *172/414 - 0.015 * window.innerHeight;
     //var heightScreen=1344
-
-    var margin = { top: 50, right: 20, bottom: 50, left: 0 };
+    
+    var margin = { top: 0.05*window.innerHeight, right: 0.06 * window.innerWidth, bottom: 0.025 * window.innerHeight, left: 0 };
        
-    var z=d3.scaleThreshold()
+    var z=d3.scaleOrdinal()
         //.range(['#40a9da', '#40a6d7', '#40a3d5', '#409ed2', '#3f9bcf', '#3f98cc', '#3f95c9', '#3f92c7', '#3e8ec4', '#3e8bc1', '#3d87bf', '#3d84bc', '#3c81b9', '#3c7db7', '#3c7bb4', '#3b77b1', '#3a74af', '#3a71ac', '#396daa', '#386aa7', '#3866a4', '#3764a1', '#36609f', '#365d9c', '#355a9a', '#345797', '#335494', '#325192', '#314d8f', '#304a8d', '#2f478a', '#2e4487', '#2d4285', '#2c3f82', '#2b3b80', '#2a397d', '#29367b', '#283278', '#272f76', '#262c73', '#242971', '#23276e', '#22236c', '#202069', '#1f1d67', '#1d1a64', '#1c1762', '#1a135f', '#18105d', '#170c5a', '#150958'])
-        .range(['#000060', '#010068', '#030070', '#080077', '#0e007d', '#150083', '#1c0089', '#23008e', '#290093', '#300097', '#37009b', '#3e009e', '#4500a1', '#4c00a3', '#5200a5', '#5900a7', '#5f00a8', '#6600a8', '#6c00a8', '#7200a8', '#7800a8', '#7e00a7', '#8400a6', '#8a00a4', '#8f00a2', '#9500a0', '#9a009e', '#9f009b', '#a40098', '#a90295', '#ad0591', '#b2088e', '#b60b8a', '#ba0f86', '#bf1281', '#c2157d', '#c61879', '#ca1b74', '#cd1e6f', '#d1216b', '#d42366', '#d72661', '#da295b', '#dd2b56', '#e02e51', '#e3304b', '#e63346', '#e83540', '#eb373a', '#ed3a34', '#f03c2e'])     
-        .domain(["AI", "Cities", "Civic Engagement", "Climate Change", "Corporate Governance", "Corporate Responsibility", "Corruption", "Crisis (Financial)", "Democracy", "Development", "Digital Economy", "Digitalisation", "Economy", "Education", "Energy", "Entrepreneurship", "Environment", "Finance", "Food/Agriculture", "Gender", "Globalisation", "Governance", "Green Growth", "Health", "Housing", "Inequality", "Infrastructure", "Innovation", "Integrity/Trust", "International Co-operation", "Internet", "Investment", "Jobs", "Media", "Migration", "New Economy", "Partnerships", "Populism", "Poverty", "Security", "Services", "Skills", "Society", "Sustainable Development", "Taxes", "Technology", "Terrorism", "Trade", "Transport", "Well-Being"]);
+         .range(['#000060', '#000065', '#01006b', '#03006f', '#060074', '#0a007a', '#0f007e', '#140082', '#180087', '#1e008b', '#23008e', '#280092', '#2d0095', '#330098', '#38009c', '#3d009e', '#4300a0', '#4800a2', '#4e00a4', '#5400a5', '#5a00a7', '#6000a8', '#6500a8', '#6b00a8', '#7200a8', '#7800a8', '#7e00a7', '#8400a6', '#8900a4', '#8f00a2', '#97009f', '#9d009c', '#a20099', '#a90295', '#ae0591', '#b3098d', '#b90d88', '#bd1183', '#c3157d', '#c71978', '#cc1c72', '#d1206b', '#d52465', '#d9285e', '#dd2b56', '#e12e4f', '#e53247', '#e93540', '#ec3937', '#f03c2e'])
+         .domain(["Cities",   "Corporate Governance", "Corporate Responsibility", "Corruption",  "Democracy", "Civic Engagement", "Populism", "Governance", "Integrity/Trust","Development",  "Economy", "Education", "Skills", "Jobs", "Energy", "Entrepreneurship",  "Finance", "Financial Crisis", "Food/Agriculture", "Gender", "Globalisation",  "Sustainable Development", "Environment", "Climate Change", "Green Growth","Health", "Housing", "Inequality", "Infrastructure",   "International Co-operation", "Technology/Science", "Internet", "Innovation", "Digitalisation","AI", "Investment", "Media", "Migration", "New Economy", "Digital Economy",  "Partnerships",  "Poverty", "Security", "Services", "Society",  "Taxes", "Terrorism", "Trade", "Transport", "Well-Being"]);
     
      
     var svg = d3.select("#chart")
@@ -296,18 +296,19 @@
             else if (parseFloat(scaleValue) >=2)
                 multiplier = 1.5
 
-            var newPos= translatePos + " scale(" + multiplier * parseFloat(scaleValue) +")"
-            console.log(d3.select(pickedThemeLabel).attr("transform"))
-            console.log(newPos)
+            var newPos= translatePos + " scale(" + multiplier * parseFloat(scaleValue) +")";
+
             d3.select(pickedThemeLabel)
                 .transition()
                 .duration(timer/2-1)
                 .ease(d3.easeElastic)
                 .attr("transform", newPos)
+                .attr("stroke","#c7c7c7")
                 .transition()
                 .duration(timer / 2 - 1)
                 .ease(d3.easeBounce)
                 .attr("transform", originPos)
+                .attr("stroke", "none")
 
             countTheme++;
 
