@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="libs/d3.v4.min.js"></script> 
+    <script src="libs/d3-area-label.js"></script>
+</head>
+<body id="page">
+    <div id="chart"></div>
+    <div id="footer">
+        <img id="logo" src="icon/logo-20YEARS-EN_White.png"></img>
+        <div id="yearDisplayed">2000</div>
+        <div id="oecdForum">#OECDForum: Partnerships in the New Economy</div>
+        <div class="worldEvent"> <h3 id="worldEventText">Coming soon....</h3></div>
+    </div>
+    
+</body>
+
+<script>
+    var timer=2000;
+   var forumTitles=[]
+
+   var worldEvents=[]
+
+   var themeList=[];
+    
+   d3.tsv("data/forumTheme.tsv", function (error, fora) {
+        fora.forEach(function (d) {
+            forumTitles.push(d)
+        })
+    });
+
+    d3.tsv("data/events.tsv", function (error, happened) {
+        happened.forEach(function (d) {
+            worldEvents.push(d)
+        })
+    });
+
+    var widthScreen = window.innerWidth;
+    //var widthScreen =8064
+    var heightScreen=window.innerHeight - 0.15*window.innerWidth *172/414 - 0.015 * window.innerHeight;
+    //var heightScreen=1344
+
+    var margin = { top: 50, right: 20, bottom: 50, left: 0 };
+       
+    var z=d3.scaleThreshold()
+        //.range(['#40a9da', '#40a6d7', '#40a3d5', '#409ed2', '#3f9bcf', '#3f98cc', '#3f95c9', '#3f92c7', '#3e8ec4', '#3e8bc1', '#3d87bf', '#3d84bc', '#3c81b9', '#3c7db7', '#3c7bb4', '#3b77b1', '#3a74af', '#3a71ac', '#396daa', '#386aa7', '#3866a4', '#3764a1', '#36609f', '#365d9c', '#355a9a', '#345797', '#335494', '#325192', '#314d8f', '#304a8d', '#2f478a', '#2e4487', '#2d4285', '#2c3f82', '#2b3b80', '#2a397d', '#29367b', '#283278', '#272f76', '#262c73', '#242971', '#23276e', '#22236c', '#202069', '#1f1d67', '#1d1a64', '#1c1762', '#1a135f', '#18105d', '#170c5a', '#150958'])
+        .range(['#000060', '#010068', '#030070', '#080077', '#0e007d', '#150083', '#1c0089', '#23008e', '#290093', '#300097', '#37009b', '#3e009e', '#4500a1', '#4c00a3', '#5200a5', '#5900a7', '#5f00a8', '#6600a8', '#6c00a8', '#7200a8', '#7800a8', '#7e00a7', '#8400a6', '#8a00a4', '#8f00a2', '#9500a0', '#9a009e', '#9f009b', '#a40098', '#a90295', '#ad0591', '#b2088e', '#b60b8a', '#ba0f86', '#bf1281', '#c2157d', '#c61879', '#ca1b74', '#cd1e6f', '#d1216b', '#d42366', '#d72661', '#da295b', '#dd2b56', '#e02e51', '#e3304b', '#e63346', '#e83540', '#eb373a', '#ed3a34', '#f03c2e'])     
+        .domain(["AI", "Cities", "Civic Engagement", "Climate Change", "Corporate Governance", "Corporate Responsibility", "Corruption", "Crisis (Financial)", "Democracy", "Development", "Digital Economy", "Digitalisation", "Economy", "Education", "Energy", "Entrepreneurship", "Environment", "Finance", "Food/Agriculture", "Gender", "Globalisation", "Governance", "Green Growth", "Health", "Housing", "Inequality", "Infrastructure", "Innovation", "Integrity/Trust", "International Co-operation", "Internet", "Investment", "Jobs", "Media", "Migration", "New Economy", "Partnerships", "Populism", "Poverty", "Security", "Services", "Skills", "Society", "Sustainable Development", "Taxes", "Technology", "Terrorism", "Trade", "Transport", "Well-Being"]);
+    
+     
+    var svg = d3.select("#chart")
+        .append("svg").attr("width", widthScreen).attr("height", heightScreen)
+ 
+    
+       // Find the min and max year, then give the
+        // full range of years between them.
+        function computeYears(rawData) {
+            var allYearsSet = d3.set();
+            rawData.forEach(function (d) {
+                d.values.forEach(function (d) {
+                    allYearsSet.add(d.key);
+                });
+            });
+            var yearsExtent = d3.extent(allYearsSet
+                .values()
+                .map(function (yearStr) {
+                    return +yearStr;
+                }));
+            return d3
+                .range(yearsExtent[0], yearsExtent[1] + 1)
+                .map(function (year) {
+                    return new Date(year + "");
+                });
+        }
+
+        var bisectDate = d3.bisector(function (d) {
+            return d.date;
+        }).left;
+
+        function getInterpolatedValue(values, date, value) {
+            const i = bisectDate(values, date, 0, values.length - 1);
+            if (i > 0) {
+                const a = values[i - 1];
+                const b = values[i];
+                const t = (date - a.date) / (b.date - a.date);
+                return value(a) * (1 - t) + value(b) * t;
+            }
+            return value(values[i]);
+        }
+
+        // Interpolate values, create data structure
+        // for d3.stack.
+        function interpolateValues(years, rawData) {
+            var value = function (d) {
+                return d.value;
+            };
+            return years.map(function (date) {
+
+                // Create a new row object with the date.
+                var row = {
+                    date: date
+                };
+
+                // Assign values to the new row object for each key.
+                // Value for `key` here will be country name.
+                rawData.forEach(function (d) {
+                    row[d.key] = getInterpolatedValue(d.values, date, value);
+                });
+
+                return row;
+            });
+        }
+
+        d3.json('data/data.json', function (rawData) {
+            //list all themes for rolling highlight feature
+            themeList= rawData.map(function (d) {
+                return d.key;
+            });
+
+            // Parse dates, extract keys.
+            var keys = rawData
+                .filter(function (d) {
+                    var sum = d3.sum(d.values, function (d) { return d.value; });
+                    return sum > 0;
+                })
+                .map(function (d) {
+                    d.values.forEach(function (d) {
+                        d.date = new Date(d.key);
+                    });
+                    return d.key;
+                });
+
+            // Compute interpolated values for all years.
+            var data = interpolateValues(computeYears(rawData), rawData);
+
+            render(data, keys);
+        });
+
+        var width = +svg.attr('width');
+        var height = +svg.attr('height');
+
+        var g = svg.append('g')
+            .attr('transform', "translate(" + margin.left + " " + margin.top + ")");
+
+
+        var xAxisG = g.append('g')
+            .attr('class', 'axis');
+            
+        var xAxisMajorG = xAxisG.append('g')
+            .attr('class', 'axis axis--major');
+
+
+        var marksG = g.append('g');
+
+        var stack = d3.stack()
+            .offset(d3.stackOffsetWiggle)
+            //.order(d3.stackOrderInsideOut)
+            ;
+        var xValue = function (d) { return d.date; };
+        var xScale = d3.scaleTime();
+        //var xScale = d3.scaleLinear();
+        var yScale = d3.scaleLinear();
+       
+       
+        var colorScale = d3.scaleOrdinal()
+            .range(d3.schemeCategory20);
+
+        var xAxisMajor = d3.axisTop().scale(xScale).ticks(20);
+       
+        var area = d3.area()
+            .x(d => xScale(xValue(d.data)))
+            .y0(d => yScale(d[0]))
+            .y1(d => yScale(d[1]))
+            .curve(d3.curveBasis);
+
+    ///////////////////////////////
+   //position Title to be refined//
+    ///////////////////////////////
+    var title = g.append('text')
+        .attr("class", "title")
+        .attr('dx',xScale(new Date("Mar 01, 2000")))
+        .attr('dy',0.33* height/3 )
+        .text("#OECDForum hot topics")
+       // .attr("fill", "#000092")
+
+       
+        // Render StreamGraph
+        function render(data, keys) {
+            stack.keys(keys);
+            var stacked = stack(data);
+
+            var innerWidth = width - margin.right - margin.left;
+            var innerHeight = height - margin.top - margin.bottom;
+
+            xScale
+                .domain(d3.extent(data, xValue))
+                .range([0, innerWidth]);
+
+            yScale
+                .domain([
+                    d3.min(stacked, function (series) {
+                        return d3.min(series, function (d) { return d[0]; });
+                    }),
+                    d3.max(stacked, function (series) {
+                        return d3.max(series, function (d) { return d[1]; });
+                    })
+                ])
+                .range([innerHeight, 0]);
+
+            colorScale.domain(d3.range(keys.length));
+
+            var paths = marksG.selectAll('path').data(stacked);
+            var pathsEnter = paths
+                .enter().append('path');
+            pathsEnter.merge(paths)
+                //.attr("class", function (d) { return d.key.replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g,'_')+"_path"; })
+                .attr("id", function (d) { return d.key.replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g, '_') + "_path"; })
+                .attr('fill', function (d) {return z(d.key); })
+                .attr('stroke', function (d) { return z(d.key); })
+                .attr('d', area)
+                .on("mouseover", function (d) { //console.log(d) 
+                });
+
+            paths.select('title')
+                .merge(pathsEnter.append('title'))
+                .text(function (d) { return d.key; })
+
+            var labels = marksG.selectAll('text').data(stacked)
+            labels
+                .enter().append('text')
+                .attr('class', 'area-label')
+                .attr('id', function (d) { return d.key.replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g, '_')+"_label"; })
+                .merge(labels)
+                .text(function (d) { return d.key; })
+                .attr('transform', d3.areaLabel(area).interpolateResolution(1000));
+
+            xAxisMajor.tickSize(-innerHeight);
+
+            xAxisG.attr('transform', `translate(0,-10)`);
+            xAxisMajorG.call(xAxisMajor);
+        }
+
+        //Rolling feature Events and forum titles
+        var counter=0;
+        window.setInterval(function(){
+
+            document.getElementById("yearDisplayed").innerHTML = forumTitles[counter].Year;
+            
+            document.getElementById("oecdForum").innerHTML= "#OECDForum: " +forumTitles[counter].Forum  ;
+
+            document.getElementById("worldEventText").innerHTML =  worldEvents[counter].Events;
+            counter++;   
+            if(counter== forumTitles.length)
+                counter=0 
+        },20000);
+
+
+
+        //Rolling feature highlightTheme
+        var countTheme=0;
+        window.setInterval(function () {
+
+            var pickedThemePath= "#"+themeList[countTheme].replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g, '_')+"_path";
+            var pickedThemeLabel = "#"+themeList[countTheme].replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g, '_') + "_label";
+            var colorPath= document.getElementById(themeList[countTheme].replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g, '_') + "_path").getAttribute("fill");
+
+
+            // Change path color
+            d3.select(pickedThemePath)
+                .attr('fill', "#272727")
+            setTimeout(function(){
+                d3.select(pickedThemePath)
+                    .attr('fill', colorPath)
+            }, timer-1)
+
+
+            // Change text size 
+            var originPos= d3.select(pickedThemeLabel).attr("transform")
+            var translatePos= d3.select(pickedThemeLabel).attr("transform").replace(', ', ',').split(' ')[0]
+            var scalePos = d3.select(pickedThemeLabel).attr("transform").replace(', ', ',').split(' ')[1]
+            var scaleValue = scalePos.substring(6).replace(/[{()}]/g, '')
+
+            var multiplier;
+            if(parseFloat(scaleValue)<0.5)
+                multiplier=6
+            else if (parseFloat(scaleValue) < 0.75)
+                multiplier = 4
+            else if (parseFloat(scaleValue) < 1)
+                multiplier = 3
+            else if (parseFloat(scaleValue) < 2)
+                multiplier = 2
+            else if (parseFloat(scaleValue) >=2)
+                multiplier = 1.5
+
+            var newPos= translatePos + " scale(" + multiplier * parseFloat(scaleValue) +")"
+            console.log(d3.select(pickedThemeLabel).attr("transform"))
+            console.log(newPos)
+            d3.select(pickedThemeLabel)
+                .transition()
+                .duration(timer/2-1)
+                .ease(d3.easeElastic)
+                .attr("transform", newPos)
+                .transition()
+                .duration(timer / 2 - 1)
+                .ease(d3.easeBounce)
+                .attr("transform", originPos)
+
+            countTheme++;
+
+            if (countTheme == themeList.length)
+                countTheme = 0
+        }, timer);
+    
+</script>

@@ -1,0 +1,5357 @@
+[
+    {
+    "key": "Ageing",
+    "values": [
+                {
+                    "key": "2000",
+                    "Forum": "Partnerships in the New Economy",
+                    "value": 0
+                },
+                {
+                    "key": "2001",
+                    "Forum": "Sustainable Development in the New Economy",
+                    "value": 0
+                },
+                {
+                    "key": "2002",
+                    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+                    "value": 0
+                },
+                {
+                    "key": "2003",
+                    "Forum": "Grow, Develop and Prosper",
+                    "value": 0
+                },
+                {
+                    "key": "2004",
+                    "Forum": "Health of Nations",
+                    "value": 1
+                },
+                {
+                    "key": "2005",
+                    "Forum": "Fuelling the Future",
+                    "value": 0
+                },
+                {
+                    "key": "2006",
+                    "Forum": "Balancing Globalisation",
+                    "value": 0
+                },
+                {
+                    "key": "2007",
+                    "Forum": "Innovation, Growth and Equity",
+                    "value": 0
+                },
+                {
+                    "key": "2008",
+                    "Forum": "Climate Change, Growth and Stability",
+                    "value": 0
+                },
+                {
+                    "key": "2009",
+                    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+                    "value": 1
+                },
+                {
+                    "key": "2010",
+                    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+                    "value": 0
+                },
+                {
+                    "key": "2011",
+                    "Forum": "Better Policies for Better Lives",
+                    "value": 0
+                },
+                {
+                    "key": "2012",
+                    "Forum": "From indignation and inequality to inclusion and integrity",
+                    "value": 1
+                },
+                {
+                    "key": "2013",
+                    "Forum": "Jobs, Equality, Trust",
+                    "value": 0
+                },
+                {
+                    "key": "2014",
+                    "Forum": "Resilient economies for inclusive societies",
+                    "value": 1
+                },
+                {
+                    "key": "2015",
+                    "Forum": "Investing in the Future: People, Planet, Prosperity",
+                    "value": 0
+                },
+                {
+                    "key": "2016",
+                    "Forum": "Productive Economies, Inclusive Societies",
+                    "value": 1
+                },
+                {
+                    "key": "2017",
+                    "Forum": "Bridging Divides",
+                    "value": 0
+                },
+                {
+                    "key": "2018",
+                    "Forum": "What Brings Us Together",
+                    "value": 0
+                },
+                {
+                    "key": "2019",
+                    "Forum": "World in EMotion",
+                    "value": 0
+                }
+            ]
+    },
+    {
+    "key": "AI",
+    "values": [
+      {
+        "key": "2000",
+        "forum": "Partnerships in the New Economy",
+        "value": "0"
+      },
+      {
+        "key": "2001",
+        "forum": "Sustainable Development in the New Economy",
+        "value": "0"
+      },
+      {
+        "key": "2002",
+        "forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+        "value": "0"
+      },
+      {
+        "key": "2003",
+        "forum": "Grow, Develop and Prosper",
+        "value": "0"
+      },
+      {
+        "key": "2004",
+        "forum": "Health of Nations",
+        "value": "0"
+      },
+      {
+        "key": "2005",
+        "forum": "Fuelling the Future",
+        "value": "0"
+      },
+      {
+        "key": "2006",
+        "forum": "Balancing Globalisation",
+        "value": "0"
+      },
+      {
+        "key": "2007",
+        "forum": "Innovation, Growth and Equity",
+        "value": "0"
+      },
+      {
+        "key": "2008",
+        "forum": "Climate Change, Growth and Stability",
+        "value": "0"
+      },
+      {
+        "key": "2009",
+        "forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+        "value": "0"
+      },
+      {
+        "key": "2010",
+        "forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+        "value": "0"
+      },
+      {
+        "key": "2011",
+        "forum": "Better Policies for Better Lives",
+        "value": "0"
+      },
+      {
+        "key": "2012",
+        "forum": "From indignation and inequality to inclusion and integrity",
+        "value": "0"
+      },
+      {
+        "key": "2013",
+        "forum": "Jobs, Equality, Trust",
+        "value": "0"
+      },
+      {
+        "key": "2014",
+        "forum": "Resilient economies for inclusive societies",
+        "value": "0"
+      },
+      {
+        "key": "2015",
+        "forum": "Investing in the Future: People, Planet, Prosperity",
+        "value": "0"
+      },
+      {
+        "key": "2016",
+        "forum": "Productive Economies, Inclusive Societies",
+        "value": "0"
+      },
+      {
+        "key": "2017",
+        "forum": "Bridging Divides",
+        "value": "0"
+      },
+      {
+        "key": "2018",
+        "forum": "What Brings Us Together",
+        "value": "0"
+      },
+      {
+        "key": "2019",
+        "forum": "World in EMotion",
+        "value": "3"
+      }
+    ]
+    },
+    {
+    "key": "Cities",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 1
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 3
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 2
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 2
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+            ]
+  },
+  {
+    "key": "Civic Engagement",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 3
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 3
+  }
+]
+  },
+  {
+    "key": "Climate Change",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 1
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 5
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 2
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Corporate Governance",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 2
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 1
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 2
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 2
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 4
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Corporate Responsibility",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 3
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 3
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 4
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 2
+  }
+]
+  },
+  {
+    "key": "Corruption",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Crisis (Financial)",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 1
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 10
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 5
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 4
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Democracy",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 4
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 4
+  }
+]
+  },
+  {
+    "key": "Development",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 4
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 3
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 4
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Digital Economy",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 2
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 4
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 3
+  }
+]
+  },
+  {
+    "key": "Digitalisation",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 5
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 8
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 8
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 9
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 11
+  }
+]
+  },
+  {
+    "key": "Economy",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 3
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 5
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 2
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 7
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 4
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 7
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 3
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 3
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 9
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 5
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 3
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 5
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 3
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Education",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 3
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 2
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 2
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 4
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 2
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 3
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Energy",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 4
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 2
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 4
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Entrepreneurship",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 4
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 2
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 2
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 2
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Environment",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 4
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 3
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 2
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 2
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 3
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 2
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Finance",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 4
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 3
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 4
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 7
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 11
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 2
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 3
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 3
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Food/Agriculture",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Gender",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 2
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 4
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 2
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 3
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 5
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Globalisation",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 4
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 5
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 5
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 4
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 4
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 3
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 2
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 7
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 2
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Governance",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 3
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 2
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 3
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 3
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 3
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 4
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 2
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 5
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 3
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 3
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Green Growth",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 2
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 2
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 3
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Health",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 10
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 1
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 1
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 4
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 4
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 3
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 2
+  }
+]
+  },
+  {
+    "key": "Housing",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Inequality",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 2
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 3
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 6
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 6
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 2
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 7
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 4
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 3
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 7
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 14
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 13
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 14
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Infrastructure",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 4
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 3
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 2
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Innovation",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 3
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 2
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 8
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 9
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 6
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 7
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 5
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 3
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 6
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 4
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 11
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 8
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 7
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 6
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 5
+  }
+]
+  },
+  {
+    "key": "Integrity/Trust",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 1
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 2
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 3
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 3
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 2
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 8
+  }
+]
+  },
+  {
+    "key": "International Co-operation",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 6
+  }
+]
+  },
+  {
+    "key": "Internet",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 4
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Investment",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 2
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 2
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 5
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 6
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 3
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 9
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 2
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Jobs",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 1
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 3
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 5
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 6
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 5
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 4
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 3
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 10
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 11
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 10
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 8
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 9
+  }
+]
+  },
+  {
+    "key": "Media",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 2
+  }
+]
+  },
+  {
+    "key": "Migration",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 2
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "New Economy",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 5
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Partnerships",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 3
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 1
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 2
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 4
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 2
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Populism",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 2
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Poverty",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 1
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 1
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Security",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 3
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 4
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 3
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Services",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 2
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 2
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 3
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 2
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 2
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 7
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 2
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 6
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 7
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 2
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 3
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 2
+  }
+]
+  },
+  {
+    "key": "Skills",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 2
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 2
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 2
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 2
+  }
+]
+  },
+  {
+    "key": "Society",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 4
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 4
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 3
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 1
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 2
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 1
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 2
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 1
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 17
+  }
+]
+  },
+  {
+    "key": "Sustainable Development",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 3
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 11
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 4
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 2
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 1
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 1
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 3
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 2
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 2
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 2
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 4
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 2
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 2
+  }
+]
+  },
+  {
+    "key": "Taxes",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 2
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Technology",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 3
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 1
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 1
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 1
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 4
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 3
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 8
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 2
+  }
+]
+  },
+  {
+    "key": "Terrorism",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 2
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Trade",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 2
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 3
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 3
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 2
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 1
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 1
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 2
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 2
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 1
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 1
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 1
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 2
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 1
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 1
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 1
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 2
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 1
+  }
+]
+  },
+  {
+    "key": "Transport",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 1
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 1
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 0
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 0
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 0
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 0
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 0
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 0
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 0
+  }
+]
+  },
+  {
+    "key": "Well-Being",
+    "values": [
+  {
+    "key": "2000",
+    "Forum": "Partnerships in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2001",
+    "Forum": "Sustainable Development in the New Economy",
+    "value": 0
+  },
+  {
+    "key": "2002",
+    "Forum": "Taking Care of the Fundamentals: Security, Equity, Education and Growth",
+    "value": 0
+  },
+  {
+    "key": "2003",
+    "Forum": "Grow, Develop and Prosper",
+    "value": 0
+  },
+  {
+    "key": "2004",
+    "Forum": "Health of Nations",
+    "value": 0
+  },
+  {
+    "key": "2005",
+    "Forum": "Fuelling the Future",
+    "value": 0
+  },
+  {
+    "key": "2006",
+    "Forum": "Balancing Globalisation",
+    "value": 0
+  },
+  {
+    "key": "2007",
+    "Forum": "Innovation, Growth and Equity",
+    "value": 0
+  },
+  {
+    "key": "2008",
+    "Forum": "Climate Change, Growth and Stability",
+    "value": 0
+  },
+  {
+    "key": "2009",
+    "Forum": "The Crisis and Beyond: For a stronger, cleaner, fairer economy",
+    "value": 0
+  },
+  {
+    "key": "2010",
+    "Forum": "Road to Recovery: Innovation, Jobs & Clean Growth",
+    "value": 0
+  },
+  {
+    "key": "2011",
+    "Forum": "Better Policies for Better Lives",
+    "value": 2
+  },
+  {
+    "key": "2012",
+    "Forum": "From indignation and inequality to inclusion and integrity",
+    "value": 0
+  },
+  {
+    "key": "2013",
+    "Forum": "Jobs, Equality, Trust",
+    "value": 1
+  },
+  {
+    "key": "2014",
+    "Forum": "Resilient economies for inclusive societies",
+    "value": 0
+  },
+  {
+    "key": "2015",
+    "Forum": "Investing in the Future: People, Planet, Prosperity",
+    "value": 3
+  },
+  {
+    "key": "2016",
+    "Forum": "Productive Economies, Inclusive Societies",
+    "value": 2
+  },
+  {
+    "key": "2017",
+    "Forum": "Bridging Divides",
+    "value": 3
+  },
+  {
+    "key": "2018",
+    "Forum": "What Brings Us Together",
+    "value": 8
+  },
+  {
+    "key": "2019",
+    "Forum": "World in EMotion",
+    "value": 5
+  }
+]
+  }
+]
