@@ -12,22 +12,25 @@
     <div id="chart"></div>
     <div id="footer">
         <img id="logo" src="icon/logo-20YEARS-EN_White.png"></img>
-        <div id="yearDisplayed">20 years of forum</div>
-        <div id="oecdForum">What was the #OECDForum focusing on?</div>
-        <div class="worldEvent"> <h3 id="worldEventText">What happened in the world that year?</h3></div>
+        <div id="yearDisplayed">&nbsp;</div>
+        
+        <Br/>
+        <!--<div id="oecdForum">What was the #OECDForum focusing on?</div>-->
+        <div class="worldEvent"> <h3 id="worldEventText">&nbsp;</h3></div>
     </div>
     
 </body>
 
 <script>
-    var timer=2000;
-   var forumTitles=[]
+   
+    var timer=2500;
+    var forumTitles=[]
 
-   var worldEvents=[]
+    var worldEvents=[]
 
-   var themeList=[];
+    var themeList=[];
     
-   d3.tsv("data/forumTheme.tsv", function (error, fora) {
+    d3.tsv("data/forumTheme.tsv", function (error, fora) {
         fora.forEach(function (d) {
             forumTitles.push(d)
         })
@@ -44,7 +47,7 @@
     var heightScreen=window.innerHeight - 0.15*window.innerWidth *172/414 - 0.015 * window.innerHeight;
     //var heightScreen=1344
     
-    var margin = { top: 0.05*window.innerHeight, right: 0.06 * window.innerWidth, bottom: 0.025 * window.innerHeight, left: 0 };
+    var margin = { top: 0.05*window.innerHeight, right: 0.02 * window.innerWidth, bottom: 0.025 * window.innerHeight, left: 0.0 * window.innerWidth };
        
     var z=d3.scaleOrdinal()
         //.range(['#40a9da', '#40a6d7', '#40a3d5', '#409ed2', '#3f9bcf', '#3f98cc', '#3f95c9', '#3f92c7', '#3e8ec4', '#3e8bc1', '#3d87bf', '#3d84bc', '#3c81b9', '#3c7db7', '#3c7bb4', '#3b77b1', '#3a74af', '#3a71ac', '#396daa', '#386aa7', '#3866a4', '#3764a1', '#36609f', '#365d9c', '#355a9a', '#345797', '#335494', '#325192', '#314d8f', '#304a8d', '#2f478a', '#2e4487', '#2d4285', '#2c3f82', '#2b3b80', '#2a397d', '#29367b', '#283278', '#272f76', '#262c73', '#242971', '#23276e', '#22236c', '#202069', '#1f1d67', '#1d1a64', '#1c1762', '#1a135f', '#18105d', '#170c5a', '#150958'])
@@ -55,7 +58,7 @@
     var svg = d3.select("#chart")
         .append("svg").attr("width", widthScreen).attr("height", heightScreen)
  
-    
+    var paths ;
        // Find the min and max year, then give the
         // full range of years between them.
         function computeYears(rawData) {
@@ -162,14 +165,12 @@
             ;
         var xValue = function (d) { return d.date; };
         var xScale = d3.scaleTime();
-        //var xScale = d3.scaleLinear();
         var yScale = d3.scaleLinear();
        
        
-        var colorScale = d3.scaleOrdinal()
-            .range(d3.schemeCategory20);
 
         var xAxisMajor = d3.axisTop().scale(xScale).ticks(20);
+
        
         var area = d3.area()
             .x(d => xScale(xValue(d.data)))
@@ -183,8 +184,8 @@
     var title = g.append('text')
         .attr("class", "title")
         .attr('dx',xScale(new Date("Mar 01, 2000")))
-        .attr('dy',0.33* height/3 )
-        .text("#OECDForum hot topics")
+        .attr('dy',0.33* height/4 )
+        .text("20 years of #OECDForum")
        // .attr("fill", "#000092")
 
        
@@ -198,7 +199,7 @@
 
             xScale
                 .domain(d3.extent(data, xValue))
-                .range([0, innerWidth]);
+                .range([0, innerWidth]) ;
 
             yScale
                 .domain([
@@ -211,19 +212,49 @@
                 ])
                 .range([innerHeight, 0]);
 
-            colorScale.domain(d3.range(keys.length));
+
+            ///////////////////////////////
+            //Invisible Rect for mouseover //
+            ///////////////////////////////
+            svg.selectAll("rect")
+                .data(["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"])
+                .enter()
+                .append("rect")
+                .attr("x", function (d) {return (xScale(new Date(d))- xScale(new Date("2001"))/2 )})
+                .attr("y", 0)
+                .attr("width", width / 20)
+                .attr("height", 0.33 * height / 5).attr("fill", "#ffffff")
+                .style("opacity",0)
+                .on("mouseover", function (d) {
+                
+                    var ev2Disp = worldEvents.filter(function(k){ return k.Year==d;})
+                    var tit2Disp = forumTitles.filter(function (k) { return k.Year == d; })
+
+                    tooltip.html("<b>"+d+"</b><br><br>OECD Forum Title: <br><b>" + tit2Disp[0].Forum + "</b><br><br>In the world: <br><i>" + ev2Disp[0].Events +"</i>") ;
+                     tooltip.style("visibility", "visible");
+                })
+                .on("mousemove", mousemove)
+                .on("mouseout", mouseout);
+
+
+
+
 
             var paths = marksG.selectAll('path').data(stacked);
             var pathsEnter = paths
                 .enter().append('path');
             pathsEnter.merge(paths)
-                //.attr("class", function (d) { return d.key.replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g,'_')+"_path"; })
+                .attr("class", "waves")
                 .attr("id", function (d) { return d.key.replace(/ /g, '_').replace(/[^a-zA-Z 0-9]+/g, '_') + "_path"; })
                 .attr('fill', function (d) {return z(d.key); })
                 .attr('stroke', function (d) { return z(d.key); })
                 .attr('d', area)
-                .on("mouseover", function (d) { //console.log(d) 
-                });
+                .on("mouseover", function (d) {
+                    tooltip.html(d.key);
+                    tooltip.style("visibility", "visible");
+                })
+                .on("mousemove", mousemove)
+                .on("mouseout", mouseout);
 
             paths.select('title')
                 .merge(pathsEnter.append('title'))
@@ -238,25 +269,32 @@
                 .text(function (d) { return d.key; })
                 .attr('transform', d3.areaLabel(area).interpolateResolution(1000));
 
+
             xAxisMajor.tickSize(-innerHeight);
 
             xAxisG.attr('transform', `translate(0,-10)`);
             xAxisMajorG.call(xAxisMajor);
+            
+
+
+            
+
+ 
         }
 
         //Rolling feature Events and forum titles
         var counter=0;
         window.setInterval(function(){
 
-            document.getElementById("yearDisplayed").innerHTML = forumTitles[counter].Year;
+            document.getElementById("yearDisplayed").innerHTML = forumTitles[counter].Year + " Forum Title: " + forumTitles[counter].Forum ;
             
-            document.getElementById("oecdForum").innerHTML= "#OECDForum: " +forumTitles[counter].Forum  ;
+           // document.getElementById("oecdForum").innerHTML= "#OECDForum: " +forumTitles[counter].Forum  ;
 
-            document.getElementById("worldEventText").innerHTML =  worldEvents[counter].Events;
+            document.getElementById("worldEventText").innerHTML = "In "+ forumTitles[counter].Year  + ": "+ worldEvents[counter].Events;
             counter++;   
             if(counter== forumTitles.length)
                 counter=0 
-        },25000);
+        },30000);
 
 
 
@@ -271,7 +309,7 @@
 
             // Change path color
             d3.select(pickedThemePath)
-                .attr('fill', "#272727")
+                .attr('fill', "#009228") //previously #272727
             setTimeout(function(){
                 d3.select(pickedThemePath)
                     .attr('fill', colorPath)
@@ -295,8 +333,20 @@
                 multiplier = 2
             else if (parseFloat(scaleValue) >=2)
                 multiplier = 1.5
+              
+            //case where text is too close to right hand margin
+            var translatetemp= translatePos.substring(10).replace(')', '')
 
-            var newPos= translatePos + " scale(" + multiplier * parseFloat(scaleValue) +")";
+            var translateX= translatetemp.split(',')[0]
+            var translateY= translatetemp.split(',')[1]
+
+            scaleValue=scaleValue.replace('(', '').split(',')[0]
+
+            if (translateX>0.8* widthScreen)
+                translateX=translateX- scaleValue* pickedThemeLabel.length*0.015* widthScreen;
+
+            //var newPos= translatePos + " scale(" + multiplier * parseFloat(scaleValue) +")";
+            var newPos = "translate("+translateX + ","+translateY + ") scale(" + multiplier * parseFloat(scaleValue) + ")";
 
             d3.select(pickedThemeLabel)
                 .transition()
@@ -306,7 +356,8 @@
                 .attr("stroke","#c7c7c7")
                 .transition()
                 .duration(timer / 2 - 1)
-                .ease(d3.easeBounce)
+                .ease(d3.easeElastic)
+                //.ease(d3.easeBounce)
                 .attr("transform", originPos)
                 .attr("stroke", "none")
 
@@ -315,5 +366,29 @@
             if (countTheme == themeList.length)
                 countTheme = 0
         }, timer);
-    
+
+
+                
+
+         var tooltip = d3.select("#chart")
+                .append("div")
+                .style("position", "absolute")
+                .style("z-index", "20")
+                .style("visibility", "hidden")
+                .style("color", "#474747")
+                .style("padding", "8px")
+                .style("background-color", "#f0f0f0")
+                .style("border-radius", "3px")
+                .style("font", "11")
+                .style("font-family", 'Raleway')
+                .style("text-anchor", "middle")
+                .style("max-width", "300px")
+                .text("");
+
+            var mousemove = function () {
+                return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
+            }
+
+            var mouseout = function () { return tooltip.style("visibility", "hidden"); } 
+
 </script>

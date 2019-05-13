@@ -8,7 +8,7 @@
       }
       path:hover {
         fill-opacity: 1;
-        fill:#575757;
+        fill:#7fc893; /*previously #575757*/
       }
       path {
         fill-opacity: 0.8;
@@ -96,9 +96,9 @@
               -webkit-transform:translateX(100%);    
               transform:translateX(100%);
               /* Apply animation to this element */  
-              -moz-animation: worldEvent 25s linear infinite;
-              -webkit-animation: worldEvent 25s linear infinite;
-              animation: worldEvent 25s linear infinite;
+              -moz-animation: worldEvent 30s linear infinite;
+              -webkit-animation: worldEvent 30s linear infinite;
+              animation: worldEvent 30s linear infinite;
       }
       /* Move it (define the animation) */
       @-moz-keyframes worldEvent {
