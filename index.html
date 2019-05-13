@@ -230,7 +230,7 @@
                     var ev2Disp = worldEvents.filter(function(k){ return k.Year==d;})
                     var tit2Disp = forumTitles.filter(function (k) { return k.Year == d; })
 
-                    tooltip.html("<b>"+d+"</b><br><br>OECD Forum Title: <br><b>" + tit2Disp[0].Forum + "</b><br><br>In the world: <br><i>" + ev2Disp[0].Events +"</i>") ;
+                    tooltip.html("Forum "+d+": <b>" + tit2Disp[0].Forum + "</b><br><br>In the world: <br><i>" + ev2Disp[0].Events +"</i>") ;
                      tooltip.style("visibility", "visible");
                 })
                 .on("mousemove", mousemove)
@@ -286,7 +286,7 @@
         var counter=0;
         window.setInterval(function(){
 
-            document.getElementById("yearDisplayed").innerHTML = forumTitles[counter].Year + " Forum Title: " + forumTitles[counter].Forum ;
+            document.getElementById("yearDisplayed").innerHTML = " Forum "+ forumTitles[counter].Year +": " + forumTitles[counter].Forum ;
             
            // document.getElementById("oecdForum").innerHTML= "#OECDForum: " +forumTitles[counter].Forum  ;
 
