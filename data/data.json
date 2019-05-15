@@ -625,7 +625,7 @@
       {
         "key": "2019",
         "Forum": "World in EMotion",
-        "value": 0
+        "value": 1
       }
     ]
   },
@@ -1570,7 +1570,7 @@
       {
         "key": "2019",
         "Forum": "World in EMotion",
-        "value": 0
+        "value": 1
       }
     ]
   },
@@ -1780,7 +1780,7 @@
       {
         "key": "2019",
         "Forum": "World in EMotion",
-        "value": 1
+        "value": 4
       }
     ]
   },
@@ -3670,7 +3670,7 @@
       {
         "key": "2019",
         "Forum": "World in EMotion",
-        "value": 9
+        "value": 10
       }
     ]
   },
@@ -3775,7 +3775,7 @@
       {
         "key": "2019",
         "Forum": "World in EMotion",
-        "value": 0
+        "value": 1
       }
     ]
   },
@@ -3880,7 +3880,7 @@
       {
         "key": "2019",
         "Forum": "World in EMotion",
-        "value": 2
+        "value": 4
       }
     ]
   },
@@ -4930,7 +4930,7 @@
       {
         "key": "2019",
         "Forum": "World in EMotion",
-        "value": 0
+        "value": 2
       }
     ]
   },
@@ -5245,7 +5245,7 @@
   {
     "key": "2019",
     "Forum": "World in EMotion",
-    "value": 5
+    "value": 6
   }
 ]
   }
