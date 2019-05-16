@@ -86,7 +86,7 @@
               font-style:normal;
               font-weight:100;
               position: absolute;
-              width: 100%;
+              width: 125%;
               height: 100%;
               margin: 0;
               line-height: 50px;
@@ -96,9 +96,9 @@
               -webkit-transform:translateX(100%);    
               transform:translateX(100%);
               /* Apply animation to this element */  
-              -moz-animation: worldEvent 32s linear infinite;
-              -webkit-animation: worldEvent 32s linear infinite;
-              animation: worldEvent 32s linear infinite;
+              -moz-animation: worldEvent 30s linear infinite;
+              -webkit-animation: worldEvent 30s linear infinite;
+              animation: worldEvent 30s linear infinite;
       }
       /* Move it (define the animation) */
       @-moz-keyframes worldEvent {
